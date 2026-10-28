@@ -1,0 +1,49 @@
+*All literal can be converted except boolean
+
+[if-else-if ladder]
+-> efficient for 2 more conditions
+-> wont test for others when a score/block is already TRUE
+
+if(condition1){ -> TRUE
+//code
+}else if(condition){ -> WILL NOT RUN ANYMORE
+//code
+}else{ -> WILL NOT RUN ANYMORE
+//code
+}
+
+*else is optional but useful for safety catch
+*java.lang is implicit import
+*java. not language like .util needs explicit import
+*static means owned by the class
+
+Compare String -> using .equal method and .equalignorecase
+.equal for strict
+.equalignorecase for non cae sensitive
+
+*Wrapper types are for data types conversion, one datatype to other
+
+Enhanced For Loop
+- process every element in an array or collection
+- do not need an index
+- only need to read or use each element (not need index)
+- cleaner or more traversal code
+- only applicable for Arrays??
+
+While loop
+- don't know exactly how many iterations
+- dependent on the condition
+- usecase for validation and input repeatedly
+- when you are reading data until no more data is available
+- no need execute if conditions fails initially
+
+Do-While Loop
+- must execute once
+- need to display application menu before checking user wants to continue
+- need to request input atleast once before validation (use case)
+- repetition still depends on a condition
+
+Array
+- same variable types for all elements
+- instead of declaring many variable of the same type, you can use Array
+- curly brackets denotes it's an array
