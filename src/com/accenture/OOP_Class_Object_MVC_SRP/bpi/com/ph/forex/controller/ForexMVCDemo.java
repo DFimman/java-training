@@ -8,7 +8,7 @@ public class ForexMVCDemo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // <className> <ojectName> = new <className>()'
+        // <className> <objectName> = new <className>()'
         Customer myCustomer = new Customer(); //object instantiation
 
         // input variable
