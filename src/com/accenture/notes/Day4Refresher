@@ -1,0 +1,50 @@
+OOP (Object Oriented Programming)
+- aims to implement real-word entities, example: objects, classes, abstraction, inheritance, polymorphism
+- a methodology or paradigm for designing
+
+Object
+- any entity that has a state(data) and behavior(functionalities) is known as an object
+- instance of a class
+- can communicate without knowing details and data, important is the type of message accepted and message return
+
+Elements of an object:
+1. State: It is embodied in an object's properties. Additionally, it reflects an object's attributes.
+2. Behavior: An object's methods are a representation of it. Additionally, it represents how an object
+    reacts to other objects.
+3. Identity: Identity is a special name that gives a thing the ability to communicate with other objects.
+4. Method: A method is a group of statements that carry out a certain operation and give an outcome.
+    A method can complete a certain task without giving back any results. Methods are regarded as time
+    savers since they enable us to reuse the code without having to type it again. Java differs from languages like C, C++, and Python in that each method needs to be a component of a class.
+
+*No class means no objects
+
+Class
+- is a logical entity -> does not consume space
+- blueprint for an object
+
+Class declaration includes:
+1. Modifiers: public or default access
+2. class keyword: keyword to create a class
+3. class name: the name (capitalize by convention)
+4. superclass (if any): The name of the class's parent (superclass), if any, preceded by the keyword extends. A class can only extend (subclass) one parent.
+5. Interfaces (if any): A comma-separated list of interfaces implemented by the class, if any, preceded by the keyword implements. A class can implement more than one interface.
+6. Body: The class body surrounded by braces, { }.
+
+*default access modifier when no modifies is seen
+* (public, private chuchu global access and package level)
+* in accenture 1 class, 1 file
+* only 1 public access modifier on a class with in 1 java file
+
+*CODE SMELL -> sign in source code that suggest the design or implementation may be difficult to understand, maintain, and test
+*SOLID Design Principle (https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
+- Single-responsibility: one job
+- OpenClose:
+- L
+- I
+- D
+
+https://www.geeksforgeeks.org/system-design/software-design-patterns/
+https://www.geeksforgeeks.org/system-design/mvc-design-pattern/
+
+model contains data, properties and logic
+
